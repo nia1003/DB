@@ -39,5 +39,5 @@ PostgreSQL can be administered from the command line using the psql utility, by 
 
 ### 4. connect to host
 ```
- psql -h 127.0.0.1 -U myuser mydb
+ psql -h localhost -U myuser -d postgres -p 5432 PATH\to\filename.sql
 ```
